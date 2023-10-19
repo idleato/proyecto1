@@ -1,0 +1,56 @@
+body {
+    background-color: #d6f99f;
+    color: #345427;
+}
+
+img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+header {
+    text-align: center;
+
+}
+
+nav {
+    text-align: center;
+}
+
+a:link {
+    color: #4c8435;
+}
+
+a:visited {
+    color: #13250e;
+}
+
+p {
+    font-size: 14px;
+}
+
+#container {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+}
+li {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

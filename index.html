@@ -9,26 +9,27 @@
 </head>
 <body>
  <header>
-    <h1>Idleato</h1>
-    <nav>
-      <a href="http://">Home</a>
-      <a href="">Sobre mi</a>
-      <a href="">Estudios</a>
-      <a href="">Intereses</a>
-      <a href="">Contacto</a>
-    </nav>
+    <h1>Mi Portafolio</h1>
  </header>
+ <nav>
+    <a href="http://">Home</a>
+    <a href="#sobre-mi">Sobre mi</a>
+    <a href="#estudios">Estudios</a>
+    <a href="#intereses">Intereses</a>
+    <a href="#contactos">Contacto</a>
+  </nav>
  <main>
-    <article>
-        <h1>Mi Portafolio</h1>
+    <article id="container">
+        <h1>Idleato</h1>
+        <img class="img" src="./img/img.jpg" alt="">
     </article>
-
-    <article>
+    <hr>
+    <article class="sobre-mi">
         <h3>Sobre Mi</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu magna id ligula luctus venenatis in vitae lacus. Mauris accumsan odio et magna laoreet, a imperdiet elit rhoncus. Maecenas et velit massa. Donec nulla ante, bibendum at nibh hendrerit, vulputate tempor sapien. Suspendisse nec pretium urna, nec vestibulum leo. Praesent.</p>
     </article>
-
-    <article>
+    <hr>
+    <article id="estudios">
         <h3>Estudios</h3>
         <ul>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -41,9 +42,9 @@
             <li>In vel ante et nisl ornare porttitor.</li>
         </ul>
     </article>
-
+    <hr>
     <article>
-        <h3>Intereses</h3>
+        <h3 id="intereses">Intereses</h3>
         <ul>
             <li>Donec lobortis lorem tincidunt condimentum fringilla.</li>
             <li>Quisque in magna ullamcorper, dignissim tortor id, viverra velit.</li>
@@ -52,9 +53,9 @@
             <li>Sed ut elit nec magna finibus aliquet ac non ligula.</li>
         </ul>
     </article>
-
+    <hr>
     <article>
-        <h3>Contacto</h3>
+        <h3 id="contactos">Contacto</h3>
         <form action="">
             <label for="fname">Nombre y apellido:</label><br>
             <input type="text" id="fname" name="fname" value="Tu nombre"><br>
@@ -66,6 +67,7 @@
             
         </form>
     </article>
+    <hr>
     <br>
  </main>
  <footer>
